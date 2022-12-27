@@ -1,0 +1,32 @@
+[
+{
+  "title": "zaproszenie",
+  "prize": 10,
+  "amount": 15,
+  "img": "zaproszenie.jpg"
+},
+{
+"title": "swieta1",
+"prize": 12,
+"amount": 20,
+  "img": "swieta1.jpg"
+},
+{
+"title": "swieta2",
+"prize": 18,
+"amount": 14,
+  "img": "swieta2.jpg"
+},
+{
+"title": "birthday",
+"prize": 14,
+"amount": 5,
+  "img": "birthday.jpg"
+},
+{
+"title": "hermione",
+"prize": 20,
+"amount": 7,
+  "img": "hermione.jpg"
+}
+]

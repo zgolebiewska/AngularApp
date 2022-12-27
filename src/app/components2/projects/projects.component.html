@@ -1,0 +1,22 @@
+<section class="wrapper">
+  <app-navbar></app-navbar>
+  <div>
+    <h2>
+      SEE MY PROJECTS
+    </h2>
+    <ul class="column">
+      <li style="width: 50%">
+    <ul *ngFor="let project of projectList" class="column">
+      <li style="text-align: right">
+        <img src="../../../assets/cards/{{project.img}}"></li>
+      <li>
+        <h3>Project title: {{project.title}}</h3>
+        <h3>Project prize: {{project.prize}}</h3>
+        <h3>Project amount: {{project.amount}}</h3>
+      </li>
+    </ul>
+      </li>
+      <li style="width: 50%"></li>
+    </ul>
+  </div>
+</section>

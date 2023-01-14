@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {AboutModule} from "../about/about.module";
-import {NavbarModule} from "../../components/navbar/navbar.module";
-import {FooterModule} from "../../components/footer/footer.module";
+import {NavbarModule} from "../../shared/navbar/navbar.module";
+import {FooterModule} from "../../shared/footer/footer.module";
 import { FetchjsonPipe } from './fetchjson.pipe';
 
 

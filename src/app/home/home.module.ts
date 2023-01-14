@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {NavbarModule} from "../components/navbar/navbar.module";
+import {NavbarModule} from "../shared/navbar/navbar.module";
 import {HomeComponent} from "./home.component";
-import {FooterModule} from "../components/footer/footer.module";
-import {NewsModule} from "../components/news/news.module";
-import {SliderModule} from "../components/slider/slider.module";
+import {FooterModule} from "../shared/footer/footer.module";
+import {NewsModule} from "../shared/news/news.module";
+import {SliderModule} from "../shared/slider/slider.module";
 import {Route} from "./home-routing.module";
 
 
